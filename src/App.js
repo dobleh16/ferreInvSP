@@ -22,6 +22,7 @@ function App() {
         <Problems />
         <Solution />
         <Features />
+        <Testimonials />
         <Pricing />
         <Contact />
       </main>

@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/solid';
-import logo from '../assets/ferretInv.png';
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -10,11 +9,11 @@ const Header = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
           <div className="flex items-center">
-            <img src={logo} alt="FerretInv Logo" className="h-12 w-auto" />
-            <h1 className="text-2xl font-bold text-gray-800 ml-3">FerretInv</h1>
+            <h1 className="text-2xl font-bold text-gray-800">FerretInv</h1>
           </div>
           <nav className="hidden md:flex items-center space-x-6">
             <a href="#features" className="text-gray-600 hover:text-blue-600 transition duration-300">Características</a>
+            <a href="#testimonials" className="text-gray-600 hover:text-blue-600 transition duration-300">Clientes</a>
             <a href="#pricing" className="text-gray-600 hover:text-blue-600 transition duration-300">Precios</a>
             <a href="#contact" className="text-gray-600 hover:text-blue-600 transition duration-300">Contacto</a>
             <a href="https://api.whatsapp.com/send/?phone=573114255704&text=Hola,%20quisiera%20agendar%20una%20demostraci%C3%B3n%20de%20FerretInv" target='_blank' rel="noopener noreferrer" className="bg-blue-600 text-white px-5 py-2 rounded-lg hover:bg-blue-700 transition duration-300 shadow-md">
