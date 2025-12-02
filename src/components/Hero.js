@@ -16,9 +16,17 @@ const Hero = () => {
           <li>Cuánto dinero tienen realmente en inventario parado</li>
           <li>Qué se vendió ayer vs. qué quedó registrado</li>
         </ul>
-        <p className="text-xl sm:text-2xl font-bold">
+        <p className="text-xl sm:text-2xl font-bold mb-8">
           No es que vendan poco. Es que están perdiendo plata sin darse cuenta.
         </p>
+        <div className="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-4">
+          <button className="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-8 rounded-lg text-lg transition duration-300">
+            Agendar Demo Gratis (10 min)
+          </button>
+          <button className="bg-white hover:bg-gray-100 text-gray-800 font-bold py-3 px-8 rounded-lg text-lg border border-gray-300 transition duration-300">
+            Ver Precios
+          </button>
+        </div>
       </div>
     </section>
   );
