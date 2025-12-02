@@ -20,12 +20,12 @@ const Hero = () => {
           No es que vendan poco. Es que están perdiendo plata sin darse cuenta.
         </p>
         <div className="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-4">
-          <button className="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-8 rounded-lg text-lg transition duration-300">
+          <a href="https://api.whatsapp.com/send/?phone=573114255704&text=quiero%20agendar%20hoy%20mismo" target="_blank" rel="noopener noreferrer" className="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-8 rounded-lg text-lg transition duration-300 inline-block text-center">
             Agendar Demo Gratis (10 min)
-          </button>
-          <button className="bg-white hover:bg-gray-100 text-gray-800 font-bold py-3 px-8 rounded-lg text-lg border border-gray-300 transition duration-300">
+          </a>
+          <a href="#pricing" className="bg-white hover:bg-gray-100 text-gray-800 font-bold py-3 px-8 rounded-lg text-lg border border-gray-300 transition duration-300 inline-block text-center">
             Ver Precios
-          </button>
+          </a>
         </div>
       </div>
     </section>
