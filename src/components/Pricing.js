@@ -10,7 +10,7 @@ const Pricing = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 max-w-4xl mx-auto">
           <div className="bg-white p-6 sm:p-8 rounded-lg shadow-md border-2 border-blue-500">
             <h3 className="text-xl sm:text-2xl font-bold text-center mb-4">Plan Mensual</h3>
-            <div className="text-3xl sm:text-4xl font-bold text-center text-blue-600 mb-4">$100.000 COP</div>
+            <div className="text-3xl sm:text-4xl font-bold text-center text-blue-600 mb-4">$150.000 COP</div>
             <p className="text-center text-sm mb-6">Recuperas esa inversión eliminando solo 1-2 errores al mes</p>
             <ul className="space-y-3 mb-6 list-disc list-inside text-sm sm:text-base">
               <li>✓ Acceso completo al sistema</li>
@@ -23,16 +23,15 @@ const Pricing = () => {
           </div>
           <div className="bg-blue-600 text-white p-6 sm:p-8 rounded-lg shadow-lg transform md:scale-105 border-2 border-blue-600">
             <h3 className="text-xl sm:text-2xl font-bold text-center mb-4">Plan Anual ⭐ RECOMENDADO</h3>
-            <div className="text-3xl sm:text-4xl font-bold text-center mb-2">$960.000 COP</div>
-            <p className="text-sm text-center mb-6">Ahorras $240.000 (2 meses gratis) + beneficios exclusivos</p>
+            <div className="text-3xl sm:text-4xl font-bold text-center mb-2">$1.500.000 COP</div>
+            <p className="text-sm text-center mb-6">Ahorras $300.000 al año + beneficios exclusivos</p>
             <ul className="space-y-3 mb-6 list-disc list-inside text-sm sm:text-base">
               <li>✓ Todo lo del plan mensual</li>
-              <li>✓ Facturación electrónica incluida una vez implementada</li>
               <li>✓ Acompañamiento especial personalizado</li>
               <li>✓ Migración inicial de inventario GRATIS</li>
               <li>✓ Soporte prioritario vía WhatsApp</li>
               <li>✓ Capacitación completa para tu equipo</li>
-              <li>✓ Ahorro de $240,000 al año</li>
+              <li>✓ Ahorro de $300,000 al año</li>
             </ul>
           </div>
         </div>
