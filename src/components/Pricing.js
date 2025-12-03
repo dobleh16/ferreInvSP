@@ -18,7 +18,11 @@ const Pricing = () => {
               <li>✓ Soporte estándar</li>
               <li>✓ Dashboard en tiempo real</li>
               <li>✓ Alertas de stock bajo</li>
-              <li>✓ Sin permanencia mínima</li>
+              <li>✓ Alertas de productos vencidos</li>
+              <li>✓ Alertas de productos por vencer</li>
+              <li>✓ Alertas de productos no vendidos</li>
+              <li>✓ Facturacion POS</li>
+              <li>✓ Graficos que permiten ver realmente tus ganancias y el desempeño de tu negocio</li>
             </ul>
           </div>
           <div className="bg-blue-600 text-white p-6 sm:p-8 rounded-lg shadow-lg transform md:scale-105 border-2 border-blue-600">
@@ -31,6 +35,7 @@ const Pricing = () => {
               <li>✓ Migración inicial de inventario GRATIS</li>
               <li>✓ Soporte prioritario vía WhatsApp</li>
               <li>✓ Capacitación completa para tu equipo</li>
+              <li>✓ Facturacion electronica incluida una vez implementada</li>
               <li>✓ Ahorro de $300,000 al año</li>
             </ul>
           </div>
